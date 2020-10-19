@@ -13,55 +13,6 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            //Console.OutputEncoding = Encoding.UTF8;
-
-            //XmlDocument xdoc = new XmlDocument();
-
-            //xdoc.Load("https://api.privatbank.ua/p24api/pubinfo?exchange&coursid=11");
-
-
-            //XmlNodeList xNodelst = xdoc.DocumentElement.SelectNodes("//exchangerates/row");
-
-            //int a = 0;
-            //foreach (XmlNode xNode in xNodelst)
-            //{
-            //    a++;
-            //    Console.Write(a + " - ");
-            //    Console.WriteLine($"{xNode.SelectSingleNode("exchangerate").SelectSingleNode("@ccy").Value}");
-            //}
-            //Console.WriteLine("Select your valute: ");
-            //int select = int.Parse(Console.ReadLine());
-            //Console.WriteLine("Select valute to convert: ");
-            //int select2 = int.Parse(Console.ReadLine());
-            //Console.WriteLine("Enter count of your valute:");
-            //int count_your_valute = int.Parse(Console.ReadLine());
-
-            //decimal price_your_valute = 0;
-            //decimal price_convert_valute = 0;
-
-            //int f = 0;
-            //foreach (XmlNode xNode in xNodelst)
-            //{
-
-            //    f++;
-            //    if (f == select)
-            //    {
-            //        string str = xNode.SelectSingleNode("exchangerate").SelectSingleNode("@buy").Value;
-            //        price_your_valute = decimal.Parse(str, CultureInfo.InvariantCulture);
-            //    }
-            //    if (f == select2)
-            //    {
-            //        string str = xNode.SelectSingleNode("exchangerate").SelectSingleNode("@buy").Value;
-            //        price_convert_valute = decimal.Parse(str, CultureInfo.InvariantCulture);
-            //    }
-            //}
-
-            //decimal result = 0;
-            //price_your_valute = price_your_valute * count_your_valute;
-            //result = price_your_valute / price_convert_valute;
-            //Console.WriteLine(result);
-
-
             Console.OutputEncoding = Encoding.UTF8;
 
             XmlDocument xdoc = new XmlDocument();
